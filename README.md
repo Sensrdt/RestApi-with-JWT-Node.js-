@@ -1,7 +1,7 @@
 # RestApi-with-JWT-Node.js-
 
 Download this repo :
-  # Run all the below mentioned snippet in command prompt
+  # Run all the below mentioned snippet in command prompt from the directory where you have cloned this repo
     (1) Run npm install
         Refer this website if you don't have npm and node.js installed in your system :- https://www.npmjs.com/get-npm
     (2) Run npm install express
