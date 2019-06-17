@@ -21,3 +21,4 @@ Download this repo :
 # Move to the directory you have saved this repo then open cmd there and type :
     nodemone script.js
 It will look something like this 
+![1](https://user-images.githubusercontent.com/38683560/59582959-7d003c00-90f7-11e9-964f-1860c973b878.PNG)
