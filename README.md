@@ -30,5 +30,4 @@ It will look something like this
 # OPEN POSTMAN AND DO THE FOLLOWING
 
 
-![SignUp](https://user-images.githubusercontent.com/38683560/59583501-285dc080-90f9-11e9-8c04-2619ce831748.PNG)
-
+![SignUp](https://user-images.githubusercontent.com/38683560/59583681-a3bf7200-90f9-11e9-89da-b7159d66a57d.PNG)
