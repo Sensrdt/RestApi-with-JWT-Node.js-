@@ -56,25 +56,30 @@ app.post('/user/login',(req, res) =>{
     let flag = true;
     // O(n) Time complexity in worst case
     // n denotes the database length or the size of the database
+if (req.body.username != null && req.body.password !=  null)
+{
+      for (let i=0; i<db.users.length; i++){
+        if (req.body.username === db.users[i].username && req.body.password === db.users[i].password){
+          //console.log(i);
+          global_var = i;
+          //console.log("Global var " + global_var);
+          flag = true;
+          break;
+        }else flag = false;
+      }
 
-    for (let i=0; i<db.users.length; i++){
-      if (req.body.username === db.users[i].username && req.body.password === db.users[i].password){
-        //console.log(i);
-        global_var = i;
-        //console.log("Global var " + global_var);
-        flag = true;
-        break;
-      }else flag = false;
-    }
+      if (!flag) res.status(400).json("Entry forbidden");
+      else {
+        jwt.sign({db}, 'secretKey', (err, token) => {
+          res.json({
+            token
+          })
+        });
+      }
+}else {
+  res.status(500).json("Enter all credentials");
+}
 
-    if (!flag) res.status(400).json("Entry forbidden");
-    else {
-      jwt.sign({db}, 'secretKey', (err, token) => {
-        res.json({
-          token
-        })
-      });
-    }
 })
 
 // Signup
@@ -87,8 +92,8 @@ app.post('/user/signup', (req, res) =>{
     name : name,
     id : "id-" + ids.generate()
   })
-
-  res.json(db.users[db.users.length-1].id);
+if (req.body.username != null && req.body.name != null && req.body.password != null && req.body.dob != null) res.json(db.users[db.users.length-1].id);
+else res.status(400).send("Enter all credentials");
 })
 
 function verifyToken(req, res, next) {
