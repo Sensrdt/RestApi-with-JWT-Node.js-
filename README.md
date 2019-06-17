@@ -27,7 +27,14 @@ It will look something like this
 
 
 
-# OPEN POSTMAN AND DO THE FOLLOWING
+# OPEN POSTMAN AND DO THE FOLLOWING FOR SIGNUP
 
 
 ![SignUp](https://user-images.githubusercontent.com/38683560/59583681-a3bf7200-90f9-11e9-89da-b7159d66a57d.PNG)
+
+
+# DO THE FOLLOWING FOR LOGIN
+
+
+![Login](https://user-images.githubusercontent.com/38683560/59583931-58599380-90fa-11e9-8274-5ab2deeb18d4.PNG)
+
