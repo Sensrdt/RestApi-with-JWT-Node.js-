@@ -17,3 +17,7 @@ Download this repo :
         
 
 # Make sure you have postman installed in your system or else follow this link : - https://www.getpostman.com/
+# Set Up is done !
+# Move to the directory you have saved this repo then open cmd there and type :
+    nodemone script.js
+It will look something like this 
