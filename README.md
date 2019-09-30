@@ -1,7 +1,7 @@
 # RestApi-with-JWT-Node.js-
 
 Download this repo :
-  # Run all the below mentioned snippet in command prompt from the directory where you have cloned this repo
+  ## Run all the below mentioned snippet in command prompt from the directory where you have cloned this repo
     (1) Run npm install
         Refer this website if you don't have npm and node.js installed in your system :- https://www.npmjs.com/get-npm
     (2) Run npm install express
@@ -16,9 +16,9 @@ Download this repo :
         Can refer this website :- https://www.npmjs.com/package/jsonwebtoken
         
 
-# Make sure you have postman installed in your system or else follow this link : - https://www.getpostman.com/
-# Set Up is done !
-# Move to the directory you have saved this repo then open cmd there and run :
+## Make sure you have postman installed in your system or else follow this link : - https://www.getpostman.com/
+### Set Up is done !
+## Move to the directory you have saved this repo then open cmd there and run :
     nodemone script.js
 It will look something like this 
 
@@ -27,13 +27,13 @@ It will look something like this
 
 
 
-# OPEN POSTMAN AND DO THE FOLLOWING FOR SIGNUP
+## OPEN POSTMAN AND DO THE FOLLOWING FOR SIGNUP
 
 
 ![SignUp](https://user-images.githubusercontent.com/38683560/59583681-a3bf7200-90f9-11e9-89da-b7159d66a57d.PNG)
 
 
-# DO THE FOLLOWING FOR LOGIN
+## DO THE FOLLOWING FOR LOGIN
 
 
 ![Login](https://user-images.githubusercontent.com/38683560/59583931-58599380-90fa-11e9-8274-5ab2deeb18d4.PNG)
